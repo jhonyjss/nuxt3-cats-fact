@@ -29,7 +29,7 @@
         </div>
 
     <div id="MobileGallery" class="mobile-gallery">
-        <carousel :items-to-show="2.3">
+        <carousel :items-to-show="1.7">
           <slide v-for="(image, index) in images" :key="index">
             <figure>
               <img
