@@ -1,75 +1,19 @@
-# Nuxt 3 Minimal Starter
+# Cats Application
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This application is based on Nuxt 3 and is installed using pnpm. It includes the following commands for development, testing, and production:
 
-## Setup
+- To start the development server, run `pnpm dev`.
+- To run unit tests, use `pnpm test`.
+- To build the application for production, run `pnpm build`.
 
-Make sure to install the dependencies:
+## Website
 
-```bash
-# npm
-npm install
+You can access the live version of the application at [https://cats-fact-jhony.vercel.app/](https://cats-fact-jhony.vercel.app/).
 
-# pnpm
-pnpm install
+## GitHub Repository
 
-# yarn
-yarn install
+The source code for this application is available on GitHub at [https://github.com/jhonyjss/nuxt3-cats-fact](https://github.com/jhonyjss/nuxt3-cats-fact).
 
-# bun
-bun install
-```
+## Mobile Ready
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is mobile-ready and utilizes Tailwind CSS for responsive design.
