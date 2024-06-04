@@ -23,7 +23,7 @@ export const useCatStore = defineStore('catStore', {
             try {
                 const API_BASEURL = useRuntimeConfig().public.baseUrl;
                 // Use useFetch to make the API request
-                const {data} = await $fetch(`${API_BASEURL}api/getCats`) as any;
+                const {data} = await $fetch(`/api/getCats`) as any;
                 console.log('FETCHING CATS', data)
                 this.cats = data
                
