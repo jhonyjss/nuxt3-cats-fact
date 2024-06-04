@@ -54,6 +54,10 @@ const props = defineProps({
 })
 const emit = defineEmits(['invalid-extension'])
 
+/*
+* Find invalid image extensions
+* and log them to the console
+*/
 onMounted(() => {
   const validImageExtensions = ['jpg', 'jpeg', 'png', 'webp', 'gif'];
   props.images.forEach((image) => {

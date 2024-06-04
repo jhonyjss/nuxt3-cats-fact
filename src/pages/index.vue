@@ -54,12 +54,20 @@ useHead({
   ]
 });
 
+/**
+ * Fetch the cat facts from the API
+ * and set the first cat fact as the initial data
+ */
 onMounted(async () => {
   await store.fetchCats();
   isLoading.value = false;
   catData.data = store.cats[0];
 });
 
+/**
+ * Get a random cat fact from the store
+ * Find a random index and set the cat data
+ */
 const randomCat = () => {
   const randomIndex = Math.floor(Math.random() * store.cats.length);
   catData.data = store.cats[randomIndex];
